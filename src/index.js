@@ -7,6 +7,7 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     // Generates a friendly error message to the developer
+    // Rendering the page more than 1 time, logging something 2 times for example
     <React.StrictMode>
         <App />
     </React.StrictMode>

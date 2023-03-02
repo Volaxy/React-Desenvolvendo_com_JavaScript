@@ -14,17 +14,12 @@ URL do curso -> [Desenvolvendo com JavaScript](https://cursos.alura.com.br/cours
 * [Protótipo do Projeto](https://www.figma.com/file/T6BLI1HfB81eYOiVgpqQz7/Projeto-Intro-ao-React?node-id=134%3A128) - Protótipo do projeto.
 * [Imagens do Projeto](https://github.com/alura-cursos/organo/raw/main/imagens.zip) - Todas as imagens que são utilizadas no projeto.
 
-## Siglas &#x1F5FA;
-*
-
-## Atalhos &#x2328;
-*
-
 ***
 
 ## 01 - Uma Biblioteca Declarativa &#x1F516;
 * Criar uma aplicação React com o comando `npx create-react-app <project-directory>`.
 * Criar um componente novo.
+* Estilizar componentes com **CSS**.
 * O que é **JSX** e como ele funciona no **React**.
 * Utilizar um componente criado dentro de outro componente.
 * Estilizar a classe de uma tag no **React** com `className`.
