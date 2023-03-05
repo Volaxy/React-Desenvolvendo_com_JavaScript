@@ -16,10 +16,17 @@ URL do curso -> [Desenvolvendo com JavaScript](https://cursos.alura.com.br/cours
 
 ***
 
-## 01 - Uma Biblioteca Declarativa &#x1F516;
+## 01 - Uma Biblioteca Declarativa
 * Criar uma aplicação React com o comando `npx create-react-app <project-directory>`.
 * Criar um componente novo.
 * Estilizar componentes com **CSS**.
 * O que é **JSX** e como ele funciona no **React**.
 * Utilizar um componente criado dentro de outro componente.
 * Estilizar a classe de uma tag no **React** com `className`.
+
+## 02 - Trabalhando com Props
+* Criar uma **ComboBox** como um componente.
+* Entender o conceito da *key* no **React**.
+* Acessar os elementos filhos de um componente com *props.children*.
+* Associar eventos ao componente.
+* Tornar uma propriedade presente ao enviar um *boolean* como parâmetro.
