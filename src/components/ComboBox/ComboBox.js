@@ -1,13 +1,11 @@
 import "./ComboBox.css";
 
 const ComboBox = (props) => {
-    console.log(props.itens);
-
     return (
         <div>
             <label className="label">Team</label>
-            <select className="combobox" required={props.required}>
-                {/* When creating a select, the React need a key to identify the element, to refresh the component when the key changing */}
+            {/* Calls the "onChanged" function passed as a parameter to be executed, and passes the input value defining the state value variable */}
+            <select className="combobox" required={props.required} onChange={event => props.onChanged(event.target.value)}>
                 {props.itens.map(item => <option key={item}>{item}</option>)}
             </select>
         </div>

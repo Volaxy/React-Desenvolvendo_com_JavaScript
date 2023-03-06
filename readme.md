@@ -13,6 +13,7 @@ URL do curso -> [Desenvolvendo com JavaScript](https://cursos.alura.com.br/cours
 ## Links Úteis &#x1F517;
 * [Protótipo do Projeto](https://www.figma.com/file/T6BLI1HfB81eYOiVgpqQz7/Projeto-Intro-ao-React?node-id=134%3A128) - Protótipo do projeto.
 * [Imagens do Projeto](https://github.com/alura-cursos/organo/raw/main/imagens.zip) - Todas as imagens que são utilizadas no projeto.
+* [Lista de Eventos do HTML](https://developer.mozilla.org/pt-BR/docs/Web/Events) - Todos os eventos possíveis do HTML.
 
 ***
 
@@ -30,3 +31,9 @@ URL do curso -> [Desenvolvendo com JavaScript](https://cursos.alura.com.br/cours
 * Acessar os elementos filhos de um componente com *props.children*.
 * Associar eventos ao componente.
 * Tornar uma propriedade presente ao enviar um *boolean* como parâmetro.
+
+## 03 - Interagindo com o Usuário
+* Controlar inputs utilizando `value` e `onChange`.
+* Gerenciar o estado de um componente, utilizando o `useState`.
+* Trabalhar com `props` que são funções.
+* Utilizar funções passadas pelo `props`.
