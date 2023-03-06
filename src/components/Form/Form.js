@@ -6,16 +6,6 @@ import Button from "../Button/Button";
 import { useState } from "react";
 
 const Form = (props) => {
-    const itens = [
-        "Programação",
-        "Front-End",
-        "Data Science",
-        "Devops",
-        "UX e Design",
-        "Mobile",
-        "Inovação e Gestão"
-    ];
-
     const [name, setName] = useState("");
     const [office, setOffice] = useState("");
     const [image, setImage] = useState("");
@@ -25,15 +15,18 @@ const Form = (props) => {
         event.preventDefault();
 
         props.onRegisterCollaborator({name, office, image, team});
+
+        setName("");
+        setOffice("");
+        setImage("");
+        setTeam("");
     }
 
     return (
-        <section className="collaborator">
+        <section className="collaborator-register">
             <form className="collaborator__form" onSubmit={onSave}>
                 <h2>Fill in the data to create the collaborator's card</h2>
 
-                {/* The "valu={VALUE}" defines the "value" attribute with the variable created with the "useState()"*/}
-                {/* The "onChanged()" is the function that be executed when the value of the input change */}
                 <TextField
                     label="Name"
                     placeholder="Type your name"
@@ -55,7 +48,7 @@ const Form = (props) => {
                     onChanged={value => setImage(value)}
                 />
                 <ComboBox
-                    itens={itens}
+                    itens={props.teams}
                     value={team}
                     required={true}
                     onChanged={value => setTeam(value)}

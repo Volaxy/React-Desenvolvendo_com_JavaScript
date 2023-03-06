@@ -37,3 +37,8 @@ URL do curso -> [Desenvolvendo com JavaScript](https://cursos.alura.com.br/cours
 * Gerenciar o estado de um componente, utilizando o `useState`.
 * Trabalhar com `props` que são funções.
 * Utilizar funções passadas pelo `props`.
+
+## 04 - Montando os Times
+* Manipular e transformar arrays de objetos.
+* Filtrar itens de um array.
+* Renderização condicional.
